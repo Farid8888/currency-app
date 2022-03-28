@@ -1,0 +1,77 @@
+.currencies tr{
+    text-align: start;
+}
+.currencies th{
+    text-align: start;
+    padding: 0.5rem;
+}
+.currencies td{
+    padding: 0.5rem;
+}
+
+.currencies{
+    width: 90%;
+    margin:10rem auto ;
+   
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+}
+.down{
+    text-align: center;
+    color: red;
+}
+.up{
+    text-align: center;
+    color: rgb(5, 214, 5);
+}
+
+
+.element{
+    background-color: wheat;
+    cursor: pointer;
+}
+
+.tooltip {
+    position: relative;
+   
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.element:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.element:hover{
+    background-color: rgb(121, 121, 240);
+}
