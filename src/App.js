@@ -7,7 +7,7 @@ import {Routes,Route} from 'react-router-dom'
 
 
 function App() {
-  var convert = require('xml-js');
+  // var convert = require('xml-js');
   const currHandler=useContext(Context).handler
   const [url,setUrl] = useState('')
   useEffect(()=>{

@@ -4,8 +4,6 @@ import classes from './LastTenDays.module.css'
 import LoadingIndicator from './LoadingIndicator';
 
 
-
-
 export default function LastTenDays() {
     const convert = require('xml-js');
     const [loading,setLoading] = useState(false)
